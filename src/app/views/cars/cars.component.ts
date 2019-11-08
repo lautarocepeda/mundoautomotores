@@ -52,7 +52,8 @@ export class CarsComponent implements OnInit {
 
             this.cars = [];
             this.getCars(params.get('brand'));
-        })
+        });
+
     }
 
 

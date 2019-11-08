@@ -13,7 +13,7 @@
         </p>
 
         <!-- Grid row -->
-        <div class="row mt-5" *ngFor="let car of cars[0]; let i = index">
+        <div class="row mt-5 wow fadeIn" *ngFor="let car of cars[0]; let i = index">
 
 
             <!-- Grid column -->
@@ -21,8 +21,7 @@
 
                 <!-- Featured image -->
                 <div class="view overlay rounded mb-lg-0 mb-4">
-                    <img class="img-fluid" src="{{ car.pathImg }}"
-                        alt="Sample image">
+                    <img class="img-fluid" src="{{ car.pathImg }}" alt="Sample image">
                     <a>
                         <div class="mask rgba-white-slight"></div>
                     </a>
@@ -35,28 +34,39 @@
             <div class="col-lg-7">
 
                 <!-- Category -->
-                <a href="#!" class="green-text">
-                    <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i> {{ car.plan }} </h6>
-                </a>
+
+
+
                 <!-- Post title -->
-                <h3 class="font-weight-bold mb-3"><strong> {{ car.modelo }} </strong></h3>
+                <h2 class="font-weight-bold mb-3"><strong> {{ car.modelo }} </strong></h2>
                 <!-- Excerpt -->
                 <p>
                     {{ car.descripcion }}
                 </p>
                 <!-- Post data -->
-                <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
+                <!-- Post data -->
+                <p><a>
+                        <h5>
+                            <span class="badge badge-success mr-2"><i class="fas fa-scroll pr-2"></i> {{ car.plan }}</span>
+                            <span class="badge badge-secondary mr-2">{{ car.anio }}</span>
+                        
+                        </h5>
+                    </a>
+                </p>
+                <hr>
                 <!-- Read more button -->
-                <a class="btn btn-success btn-md">Read more</a>
+                <a class="btn btn-md pink-gradient font-weight-bold mb-5" href="#contact">Saber más</a>
+
+                
 
             </div>
             <!-- Grid column -->
-
         </div>
         <!-- Grid row -->
+        
+        <hr>
+        
 
-
-        <hr class="my-5">
 
 
     </section>
