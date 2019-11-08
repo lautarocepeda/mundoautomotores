@@ -1,0 +1,221 @@
+{
+    "marcas": [
+        {
+            "id": 1,
+            "marca": "Volkswagen",
+            "modelo": "Amarok",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://i.ytimg.com/vi/-Jit4QbHwyU/maxresdefault.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 2,
+            "marca": "Volkswagen",
+            "modelo": "Polo",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://cuyomotor.com.ar/wp-content/uploads/2016/07/Ford-focus-2017-1-1000x600.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 3,
+            "marca": "Volkswagen",
+            "modelo": "T Cross",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 4,
+            "marca": "Volkswagen",
+            "modelo": "Gol Trend",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        }
+    ],
+    "chevrolet": [
+        {
+            "id": 5,
+            "marca": "Chevrolet",
+            "modelo": "Onix",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://i.ytimg.com/vi/-Jit4QbHwyU/maxresdefault.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 6,
+            "marca": "Chevrolet",
+            "modelo": "Prisma",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://cuyomotor.com.ar/wp-content/uploads/2016/07/Ford-focus-2017-1-1000x600.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 7,
+            "marca": "Chevrolet",
+            "modelo": "Spin",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 8,
+            "marca": "Chevrolet",
+            "modelo": "S10",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        }
+    ],
+    "ford": [
+        {
+            "id": 9,
+            "marca": "Ford",
+            "modelo": "Ka",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://i.ytimg.com/vi/-Jit4QbHwyU/maxresdefault.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 10,
+            "marca": "Ford",
+            "modelo": "Ecosport",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://cuyomotor.com.ar/wp-content/uploads/2016/07/Ford-focus-2017-1-1000x600.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 11,
+            "marca": "Ford",
+            "modelo": "Ranger",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        }
+    ],
+    "fiat": [
+        {
+            "id": 12,
+            "marca": "Fiat",
+            "modelo": "Uno",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://i.ytimg.com/vi/-Jit4QbHwyU/maxresdefault.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 13,
+            "marca": "Fiat",
+            "modelo": "Argo",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://cuyomotor.com.ar/wp-content/uploads/2016/07/Ford-focus-2017-1-1000x600.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 14,
+            "marca": "Fiat",
+            "modelo": "Cronos",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 15,
+            "marca": "Fiat",
+            "modelo": "Toro",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        }
+    ],
+    "renault": [
+        {
+            "id": 16,
+            "marca": "Renault",
+            "modelo": "Kwid",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://i.ytimg.com/vi/-Jit4QbHwyU/maxresdefault.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 17,
+            "marca": "Renault",
+            "modelo": "Sandero",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://cuyomotor.com.ar/wp-content/uploads/2016/07/Ford-focus-2017-1-1000x600.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 18,
+            "marca": "Renault",
+            "modelo": "Logan",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 19,
+            "marca": "Renault",
+            "modelo": "Duster",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 20,
+            "marca": "Renault",
+            "modelo": "Kangoo",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        }
+    ],
+    "toyota": [
+        {
+            "id": 21,
+            "marca": "Toyota",
+            "modelo": "Etios",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://i.ytimg.com/vi/-Jit4QbHwyU/maxresdefault.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 22,
+            "marca": "Toyota",
+            "modelo": "Yaris",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://cuyomotor.com.ar/wp-content/uploads/2016/07/Ford-focus-2017-1-1000x600.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        },
+        {
+            "id": 23,
+            "marca": "Toyota",
+            "modelo": "Hilux",
+            "anio": "2020",
+            "plan": "Plan 100",
+            "pathImg": "https://autoblog.com.ar/wp-content/uploads/2018/09/LANZAMIENTO-FORD-KA-4.jpg",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel eius veniam maxime."
+        }
+    ]
+}

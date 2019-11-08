@@ -1,0 +1,112 @@
+
+<!-- Section: Pricing v.3 -->
+<section class="text-center my-5" id="planes">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">EN MUNDO AUTOMOTORES TENEMOS LA MEJOR FINANCIACIÓN</h2>
+    
+        <!-- Grid row -->
+        <div class="row wow fadeIn" data-wow-delay="0.2s">
+    
+            <!-- Grid column -->
+            <div class="col-lg-4 text-center">
+                <div class="icon-area">
+                    <div class="circle-icon">
+                        <i class="fas fa-grip-vertical blue-text"></i>
+                    </div>
+                    <br>
+                    <h5 class="dark-grey-text font-weight-bold mt-2">Cuotas</h5>
+                    <div class="mt-1">
+                        <p class="mx-3 grey-text">
+                            Te ofrecemos financiación del 100% para tu 0 KM!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-lg-4 text-center">
+                <div class="icon-area">
+                    <div class="circle-icon">
+                        <i class="fas fa-wallet blue-text"></i>
+                    </div>
+                    <br>
+                    <h5 class="dark-grey-text font-weight-bold mt-2">Facilidad</h5>
+                    <div class="mt-1">
+                        <p class="mx-3 grey-text">
+                            Aceptamos todos los medios de pagos disponibles
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-lg-4 text-center mb-4">
+                <div class="icon-area">
+                    <div class="circle-icon">
+                        <i class="fas fa-exchange-alt blue-text"></i>
+                    </div>
+                    <br>
+                    <h5 class="dark-grey-text font-weight-bold mt-2">Flexibilidad</h5>
+                    <div class="mt-1">
+                        <p class="mx-3 grey-text">
+                            Oportunidad de cambio de modelo
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+        <hr class="py-3 mt-5">
+    
+        <!-- Grid row -->
+        <div class="row justify-content-center">
+    
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-12 mb-lg-0 mb-4" *ngFor="let brand of brands[0]">
+    
+                <!-- Card -->
+                <div class="card mb-4">
+    
+                    <!-- Content -->
+                    <div class="card-body wow fadeIn">
+    
+                        <!-- Offer -->
+                        <h5 class="mb-4"> {{ brand.nombre | uppercase }} </h5>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <div class="view">
+                                <img src="{{ brand.imgPath }}" alt="" class="img-fluid">
+                            </div>
+                        </div>
+    
+                        <!-- Price -->
+                        <h4 class="font-weight-bold my-4">Cuotas desde $6000</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa pariatur id
+                            nobis accusamus deleniti cumque hic laborum.</p>
+                        <hr>
+                        <a [routerLink]="['/cars', brand.nombre | lowercase]" fragment="brand" class="btn tempting-azure-gradient btn-rounded font-weight-bold text-dark">VER MODELOS</a>
+    
+                    </div>
+                    <!-- Content -->
+    
+                </div>
+                <!-- Card -->
+    
+            </div>
+            <!-- Grid column -->
+    
+    
+    
+        </div>
+        <!-- Grid row -->
+    
+    </section>
+    <!-- Section: Pricing v.3 -->
+    
+    <hr>

@@ -1,0 +1,87 @@
+<!-- Intro Section -->
+<section class="view intro-2"
+    style="background-image: url(assets/img/car.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="mask rgba-gradient-1">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+            <div class="row h-100 d-flex justify-content-center align-items-center">
+
+                <div class="col-md-10 col-lg-6 text-center text-md-left mt-5 pt-4 pt-md-0 mt-lg-0 mb-5 mb-md-0">
+                    <div class="white-text">
+                        <h1 class="h1-responsive font-weight-bold mt-sm-5 mb-4 wow fadeInLeft" data-wow-delay="0.3s">
+                            Subite a un 0 KM
+                        </h1>
+                        <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
+                        <h4 class="wow fadeInLeft" data-wow-delay="0.3s">
+                            ¡Adquirí el vehiculo de tu marca preferida y tenelo a partir
+                            de tu cuota N°6!
+                        </h4>
+                        <a class="btn pink-gradient btn-rounded btn-lg font-weight-bold wow fadeInLeft"
+                            data-wow-delay="0.4s">mas información</a>
+
+                    </div>
+                    <img src="assets/img/carintro.webp" alt="Sample Image"
+                        class="img-fluid d-none d-sm-block d-md-none d-lg-block wow fadeInLeft">
+                </div>
+
+                <div class="col-md-10 col-lg-6 mt-0 mt-lg-0 wow fadeInRight" data-wow-delay="0.3s">
+                    <!--Form-->
+                    <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="card-body z-depth-2">
+                            <!--Header-->
+                            <div class="text-center">
+                                <h3 class="dark-grey-text">
+                                    <strong>Cotizar</strong>
+                                </h3>
+                                <hr>
+                            </div>
+                            <!--Body-->
+                            <form [formGroup]="cotizarForm" (ngSubmit)="onSubmit()">
+
+                                <div class="md-form">
+                                    <i class="fas fa-user prefix grey-text"></i>
+
+                                    <input type="text" id="name" class="form-control" formControlName="name">
+                                    <label for="name">Nombre</label>
+                                    <small class="text-danger" *ngIf="cotizarForm.controls.name.invalid &&
+                                    cotizarForm.controls.name.touched"> Nombre obligatorio. </small>
+                                </div>
+
+                                <div class="md-form">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input type="text" id="email" class="form-control" formControlName="email">
+                                    <label for="email">Correo</label>
+                                </div>
+
+                                <div class="md-form">
+                                    <i class="fas fa-phone prefix grey-text"></i>
+                                    <input type="tel" id="phone" class="form-control" formControlName="phone">
+                                    <label for="phone">Teléfono</label>
+                                    <small class="text-danger" *ngIf="cotizarForm.controls.phone.invalid &&
+                                    cotizarForm.controls.phone.touched"> Teléfono obligatorio. </small>
+                                </div>
+
+                                <!--Textarea with icon prefix-->
+                                <div class="md-form">
+                                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                    <textarea type="text" id="message" class="md-textarea form-control" rows="1"
+                                        formControlName="message"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <button
+                                        class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0"
+                                        type="submit" [disabled]="!cotizarForm.valid">ENVIAR</button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--/.Form-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

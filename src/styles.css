@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+header,
+.intro-2 {
+  height: 100%;
+}
+
+@media (max-width: 450px) {
+
+  html,
+  body,
+  header,
+  .intro-2 {
+    height: 850px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 740px) {
+
+  html,
+  body,
+  header,
+  .intro-2 {
+    height: 900px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+  html,
+  body,
+  header,
+  .intro-2 {
+    height: 950px;
+  }
+}
+
+
+.rgba-gradient-1 
+{
+
+  background:linear-gradient(45deg, rgba(41, 167, 240, 0.466), rgba(255, 255, 255, 0.349), rgba(245, 20, 88, 0.5)) !important
+
+}
+
+
+.check {
+  color: #42A948;
+}
+
+
+.uncheck {
+  color: #a94442;
+}

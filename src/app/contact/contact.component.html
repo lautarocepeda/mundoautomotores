@@ -1,0 +1,101 @@
+<section id="contact" class="text-center my-5">
+
+    <!-- Section heading -->
+    <h3 class="text-center title my-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+        <strong>Contacto</strong>
+    </h3>
+
+    <!-- Section description -->
+    <p class="grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s">
+
+        Completá el siguiente formulario para que un asesor se comunique con vos y te informe
+        sobre todos nuestros planes.
+
+    </p>
+
+    <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+        <!-- Grid column -->
+        <div class="col-md-8 col-lg-9">
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" class="form-control" formControlName="name">
+                            <label for="name" class="">Nombre*</label>
+
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" class="form-control" formControlName="email">
+                            <label for="email" class="">Correo</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="phone" class="form-control" formControlName="phone">
+                            <label for="phone" class="">Teléfono*</label>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+
+                        <div class="md-form mb-0">
+                            <textarea type="text" id="message" class="md-textarea form-control" rows="3"
+                                formControlName="message"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+
+                    </div>
+                    <small class="mt-2 text-muted">Campos (*) obligatorios.</small>
+                </div>
+                <!-- Grid row -->
+            </form>
+
+            <div class="text-center text-md-left mb-5 mt-4">
+                <a class="btn btn-rounded btn-white font-weight-bold">Enviar</a>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3">
+            <ul class="list-unstyled contact-icons float-md-right">
+                <li>
+                    <i class="fas fa-map-marker-alt fa-2x title"></i>
+                    <p>New York, NY 10012, USA</p>
+                </li>
+
+                <li>
+                    <i class="fas fa-phone fa-2x title"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li>
+                    <i class="fas fa-envelope fa-2x title"></i>
+                    <p>contact@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!-- Grid column -->
+
+    </div>
+</section>
+<!-- Section: Contact v.2 -->

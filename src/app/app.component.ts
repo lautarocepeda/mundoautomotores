@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'auto';
+
+  socialLink = {
+    whatsapp: 'https://wa.me/5492616655070?text=Hola, me gustaría recibir información sobre los planes!'
+  }
+
+
 }
