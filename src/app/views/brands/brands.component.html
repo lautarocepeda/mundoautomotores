@@ -1,3 +1,4 @@
+<div class="container">
 
 <!-- Section: Pricing v.3 -->
 <section class="text-center my-5" id="planes">
@@ -68,7 +69,7 @@
         <div class="row justify-content-center">
     
             <!-- Grid column -->
-            <div class="col-lg-4 col-md-12 mb-lg-0 mb-4" *ngFor="let brand of brands[0]">
+            <div class="col-lg-4 col-md-12 mb-lg-0 mb-4" *ngFor="let brand of brands[0]" >
     
                 <!-- Card -->
                 <div class="card mb-4">
@@ -85,12 +86,9 @@
                             </div>
                         </div>
     
-                        <!-- Price -->
-                        <h4 class="font-weight-bold my-4">Cuotas desde $6000</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa pariatur id
-                            nobis accusamus deleniti cumque hic laborum.</p>
+
                         <hr>
-                        <a [routerLink]="['/cars', brand.nombre | lowercase]" fragment="brand" class="btn tempting-azure-gradient btn-rounded font-weight-bold text-dark">VER MODELOS</a>
+                        <a [routerLink]="['/autos', brand.nombre | lowercase]" fragment="brand" class="btn pink-gradient btn-rounded font-weight-bold">VER MODELOS</a>
     
                     </div>
                     <!-- Content -->
@@ -110,3 +108,4 @@
     <!-- Section: Pricing v.3 -->
     
     <hr>
+</div>

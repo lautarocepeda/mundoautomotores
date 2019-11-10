@@ -5,14 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Components
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { IntroComponent } from './intro/intro.component';
-import { SIncludeComponent } from './s-include/s-include.component';
-import { S2IncludeComponent } from './s2-include/s2-include.component';
-import { S3IncludeComponent } from './s3-include/s3-include.component';
-import { S4IncludeComponent } from './s4-include/s4-include.component';
-import { ContactComponent } from './contact/contact.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './views/navbar/navbar.component';
+import { IntroComponent } from './views/intro/intro.component';
+import { BrandsComponent } from './views/brands/brands.component';
+import { Benefits } from './views/benefits/benefits.component';
+import { ContactComponent } from './views/contact/contact.component';
+import { FooterComponent } from './views/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 
 
@@ -29,10 +27,8 @@ import { CarsComponent } from './views/cars/cars.component';
     AppComponent,
     NavbarComponent,
     IntroComponent,
-    SIncludeComponent,
-    S2IncludeComponent,
-    S3IncludeComponent,
-    S4IncludeComponent,
+    BrandsComponent,
+    Benefits,
     ContactComponent,
     FooterComponent,
     HomeComponent,

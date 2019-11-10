@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
     <div class="container">
-        <a class="navbar-brand font-weight-bold title" routerLink="/">MUNDO AUTOMOTORES</a>
+        <a class="navbar-brand font-weight-bold title" href="#">MUNDO AUTOMOTORES</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="list-unstyled navbar-nav mr-auto">
                 <li class="nav-item ml-4">
-                    <a class="nav-link title font-weight-bold" routerLink="/" data-offset="90">Inicio</a>
+                    <a class="nav-link title font-weight-bold" href="#" data-offset="90">Inicio</a>
                 </li>
                 <li class="nav-item ml-4">
-                    <a class="nav-link title font-weight-bold" href="#planes" data-offset="90">Planes</a>
+                    <a class="nav-link title font-weight-bold" [routerLink]="['/marcas']" fragment="planes" data-offset="90">Planes</a>
                 </li>
                 <li class="nav-item dropdown ml-4">
                     <a class="nav-link dropdown-toggle title font-weight-bold" id="brands" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Marcas</a>
                     <div class="dropdown-menu dropdown-primary" aria-labelledby="brands">
-                        <a *ngFor="let brand of brands[0]" class="dropdown-item" [routerLink]="['/cars', brand.nombre | lowercase]" fragment="brand"> {{ brand.nombre }} </a>
+                        <a *ngFor="let brand of brands[0]" class="dropdown-item" [routerLink]="['/autos', brand.nombre | lowercase]" fragment="brand"> {{ brand.nombre }} </a>
                     </div>
                 </li>
             </ul>

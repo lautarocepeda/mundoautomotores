@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 import { Car } from 'src/app/models/Car';
 
@@ -22,8 +22,8 @@ export class CarsComponent implements OnInit {
     cars: Car[] = [];
 
 
-    constructor(private apiService: ApiService, private router: ActivatedRoute) {
-
+    constructor(private apiService: ApiService, private router: ActivatedRoute) 
+    {
     }
 
 

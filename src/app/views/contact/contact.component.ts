@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { ApiService } from '../services/api.service';
+import { ApiService } from '../../services/api.service';
 
 
 declare var jQuery: any;

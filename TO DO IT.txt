@@ -2,10 +2,18 @@ To do it!
 
 
 
-*Formulario contacto, terminarlo. Hacerlo que envie el formulario al PHP y enviar el email. Succes con Toast.
+**Formulario contacto, terminarlo. Hacerlo que envie el formulario al PHP y enviar el email. Succes con Toast. Veri)
 
-*Descripcion de cada una de las marcas. Fiat, ford, etc.
 
 *agregar medios de pagos. Tarjetas de credito, mercado pago, etc.
 
 *Footer => Mundo invertir. una pequenya resenya.
+
+
+
+
+
+Re-verfied => 
+
+
+* Formularios: Contacto y Cotizar  | Verificar que lleguen los correos correctamente al mail.

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../services/api.service';
-import { Brand } from '../models/Brand';
+import { ApiService } from '../../services/api.service';
+import { Brand } from '../../models/Brand';
 
 @Component({
 	selector: 'app-navbar',
