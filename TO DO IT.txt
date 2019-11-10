@@ -1,0 +1,11 @@
+To do it!
+
+
+
+*Formulario contacto, terminarlo. Hacerlo que envie el formulario al PHP y enviar el email. Succes con Toast.
+
+*Descripcion de cada una de las marcas. Fiat, ford, etc.
+
+*agregar medios de pagos. Tarjetas de credito, mercado pago, etc.
+
+*Footer => Mundo invertir. una pequenya resenya.

@@ -12,17 +12,16 @@ export class ApiService {
 
 
     localUrl = 'http://localhost/Mundo%20Invertir/api/cars.php';
-    emailUrl = '';
+    emailUrl = 'http://localhost/Mundo%20Invertir/api/mail.php';
+
 
     httpOptions = {
         headers: new HttpHeaders({
             'Content-Type': 'application/json',
-            'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT',
+            'Access-Control-Allow-Methods': '*',
             'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
         })
     };
-
-
 
 
     constructor(private http: HttpClient) { }
@@ -48,10 +47,9 @@ export class ApiService {
     {
         const newform = JSON.stringify(form);
 
-        return this.http.post(this.emailUrl, newform, this.httpOptions);
+        console.log('Sending mail...');
 
-        // enviar el fomrulario al php y recibir la respuesta para mostrar con un Toast al usuario y se termina el cotizar y contact form.
-
+        return this.http.post(this.emailUrl, newform);
 
     }
 
