@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { ApiService } from '../services/api.service';
 
 @Component({
     selector: 'app-intro',
@@ -8,10 +9,15 @@ import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms'
 })
 export class IntroComponent implements OnInit {
 
+
+    @ViewChild('notification', { static: false }) alertNotification: ElementRef;
+
+
     cotizarForm: FormGroup;
     cotizar: any;
 
-    constructor(private cf: FormBuilder) { }
+    constructor(private cf: FormBuilder, private apiService: ApiService) { }
+    
 
     ngOnInit() 
     {
@@ -32,6 +38,8 @@ export class IntroComponent implements OnInit {
     onSubmit()
     {
         this.cotizar = this.saveCotizar();
+
+        this.sendMail(this.cotizar);
     }
 
 
@@ -49,4 +57,35 @@ export class IntroComponent implements OnInit {
         return saveCotizar;
 
     }
+
+
+
+    sendMail(form)
+    {
+        this.apiService.sendEmail(form).subscribe( (response: any) => {
+            this.showHtmlNotification(response.status, response.message);
+        });
+    }
+
+
+
+    showHtmlNotification(status: number, message: string)
+    {
+        const element = this.alertNotification.nativeElement;
+
+
+        switch(status)
+        {
+            case 200:
+                element.className = "alert mt-3 alert-success";
+                break;
+            default:
+                element.className = "alert mt-3 alert-danger";
+                break;
+        }
+
+        element.innerHTML = message;
+    }
+
+
 }

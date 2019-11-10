@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ApiService } from '../services/api.service';
 
 
@@ -34,9 +34,9 @@ export class ContactComponent implements OnInit {
         this.contactForm = this.cf.group(
             {
                 name: ['', Validators.required],
-                email: ['', ],
+                email: '',
                 phone: ['', Validators.required],
-                message: ['', ]
+                message: ''
             }
         )
 
@@ -46,7 +46,7 @@ export class ContactComponent implements OnInit {
 
     onSubmit() 
     {
-        this.contact = this.saveCotizar();
+        this.contact = this.saveContact();
 
         this.sendMail(this.contact);
 
@@ -83,7 +83,7 @@ export class ContactComponent implements OnInit {
 
 
 
-    saveCotizar() 
+    saveContact() 
     {
 
         const saveContact = 
