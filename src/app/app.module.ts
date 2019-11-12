@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 // Form
 import { ReactiveFormsModule } from '@angular/forms';
 import { CarsComponent } from './views/cars/cars.component';
+import { FirstBenefitsComponent } from './views/first-benefits/first-benefits.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { CarsComponent } from './views/cars/cars.component';
     ContactComponent,
     FooterComponent,
     HomeComponent,
-    CarsComponent
+    CarsComponent,
+    FirstBenefitsComponent
   ],
   imports: [
     BrowserModule,
