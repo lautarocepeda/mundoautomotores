@@ -25,9 +25,6 @@ export class BrandsComponent implements OnInit {
 
     constructor(private apiService: ApiService, private router: ActivatedRoute) 
     {
-        this.getCarsByBrand('renault');
-
-        
     }
 
 
@@ -56,8 +53,6 @@ export class BrandsComponent implements OnInit {
 	{
 		this.apiService.getBrands().subscribe(response => {
             this.brands.push(response);
-            
-            console.log(response);
 		})
 	}
 

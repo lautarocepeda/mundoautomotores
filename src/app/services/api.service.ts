@@ -11,8 +11,8 @@ import { Brand } from '../models/Brand';
 export class ApiService {
 
 
-    localUrl = 'http://201.190.181.15/Mundo%20Invertir/api/cars.php';
-    emailUrl = 'http://201.190.181.15/Mundo%20Invertir/api/mail.php';
+    localUrl = 'https://www.mundoviviendamza.com/api/cars.php';
+    emailUrl = 'https://www.mundoviviendamza.com/api/mail.php';
 
 
     httpOptions = {
